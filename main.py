@@ -13,7 +13,6 @@ def main_page(page: ft.Page):
     def on_button_click(_):
         if name_input.value:
             name = name_input.value.strip()
-
             now = datetime.now()
             time_str = now.strftime("%Y:%m:%d - %H:%M:%S")
             
